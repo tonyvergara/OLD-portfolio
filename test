@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>discovereat: Find creative new recipes using items you already have.</title>
+		<script src="http://code.jquery.com/jquery-1.11.3.js"></script>
+		<script type="text/javascript">
+			function scrollToAnchor(aid){
+    			var aTag = $("a[name='"+ aid +"']");
+    			$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+		</script>
+		<link href='https://github.com/theleagueof/league-spartan/blob/master/_webfonts/stylesheet.css' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="p4style_2.css">
+		
+		
+	</head>
+		
+		
+
+	<body>
+		
+		<div id="wrapper">
+			<div class = "top-panel">
+				<ul style="list-style-type:none">
+					<li><button onclick="scrollToAnchor('who we are')">who we are</button></li>
+					<li><button onclick="scrollToAnchor('what we do')">what we do</button></li>
+					<li><button onclick="scrollToAnchor('download')">download</button></li>
+				</ul>
+				
+			</div>
+			<a name="who we are"></a>
+			<div class="first_panel">
+				<img class="bg" src="top_panel_image.png" />
+				<h1><span style="color: #ffffff">discover</span>eat</h1>
+			</div>
+			<a name="what we do"></a>
+			<div class="body_text">
+				<h2> Find innovative recipe ideas using the ingredients you have.
+</h2>
+				<p> discovereat allows you to quickly and easily find intriguing new recipes. Simply list the ingredients you want or need to use, and the app will find the perfect meal for you.</p>
+				<h2> Follow along with us to make sure everything is perfect.</h2>
+				<p> discovereat will also help with the cooking process. Once a recipe is selected, use the app to follow along each step of the way, and even set multiple alarms to make sure you don't forget anything.</p>
+			</div>
+
+			<a name="download"></a>
+			<div class="download_screen">
+				<h2>Get ready to <span style="font-family: 'League Spartan', sans-serif">discover</span></h2>
+				<img src="download_screen_image.png">
+			</div>
+			<div class="side_nav">
+				<img src="hopefully_side_nav_2.png">
+			</div>
+			<div class="bottom_panel">
+				<ul style="list-style-type:none">
+					<li><img src="facebook_icon.png"></li>
+					<li><img src="twitter_icon.png"></li>
+					<li><img src="instagram_icon.png"></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
