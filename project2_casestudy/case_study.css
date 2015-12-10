@@ -1,0 +1,136 @@
+/*case study 2 beyond the aisle
+*/
+
+
+
+img {
+	width: 50%;
+}
+
+* {
+	margin:0;
+	border:0;
+	padding:0;
+/*	font-family: 'Libre Baskerville', sans-serif;
+*/	position: relative;
+	color:#353535;
+	border: 2px solid black;
+}
+
+.brief_analysis {
+	width: 45%;
+	display: inline-block;
+}
+.wrapper {
+	width: 100%;
+}
+body {
+	background-color: #f4f1de;
+}
+
+
+/*add all css before this line, erase the rest before deployment
+*/
+
+
+.title_panel {
+	color: #476a6f;
+	border: 2px solid black;
+}
+/*.body_text {
+	color: #404040;
+	display: inline-block;
+	width: 90%;
+	border: 2px solid black;
+}
+*/
+.projects {
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid black;
+}
+.side_panel {
+	padding: 10px;
+	display:inline-block;
+	height:250px;
+	width: 22%;
+	text-align: center;
+	border: 1px solid #888888;
+	border-radius: 5px;
+	position: relative;
+	right: 5px;
+	overflow: hidden;
+	padding-top: 10px;
+	border-bottom: 20px;
+}
+.side_panel img {
+	background-position: center top;
+	position: relative;
+	tranform: scale(1);
+	transition: transform .25s;
+	border: 2px solid black;
+	max-height: 200px;
+	width:100%;
+
+}
+
+.bottom_panel {
+	display:inline-block;
+	position:relative;
+	width: 100%;
+/*	border: 2px solid black;*/
+	height: 50px;
+	bottom: 0px;
+}
+
+.side_panel:hover {
+	bottom:4px;
+	right:4px;
+	max-height: 100px;
+	transition: max-height .5s;
+	box-shadow: 4px 4px 1px 3px #888888;
+	transition: box-shadow .5s;
+}
+
+.side_panel:hover img {
+	max-height: 100px;
+	transition: max-height .5s;
+	transform: scale(.5);
+	transition: transform .5s;
+	
+}
+
+.test_wrap {
+	display: inline-block;
+	height: 300px;
+	border: 2px solid black;
+}
+.test_div {
+	max-height: 200px;
+	transition: max-height 1s;
+	transform: scale(1);
+	transition: transform 1s;
+	float: top;
+}
+
+.test_div img {
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
+&:hover {
+	max-height: 100px;
+	transition: max-height 1s;
+	transform: scale(.5);
+	transition: transform 1s;
+}
+.test_wrap:hover .test_div
+{
+    max-height: 100px;
+	transition: max-height 1s;
+	transform: scale(.5);
+	transition: transform 1s;
+}
+
+/*https://coolors.co/app/476a6f-f4f1de-3d2645-519e8a-232323*/
+/*blueish/light cream/purplish/bluegreenish/fakeblack*/
