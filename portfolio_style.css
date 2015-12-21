@@ -32,7 +32,7 @@ body {
 	height:250px;
 	width: 22%;
 	text-align: center;
-	border: 1px solid #888888;
+	border: 1px solid #232323;
 	border-radius: 5px;
 	position: relative;
 	right: 5px;
@@ -48,25 +48,18 @@ body {
 	border: 2px solid black;
 	max-height: 200px;
 	width:100%;
-
 }
-
-.bottom_panel {
-	display:inline-block;
-	position:relative;
-	width: 100%;
-/*	border: 2px solid black;*/
-	height: 50px;
-	bottom: 0px;
-}
-
 .side_panel:hover {
-	bottom:4px;
-	right:4px;
 	max-height: 100px;
 	transition: max-height .5s;
-	box-shadow: 4px 4px 1px 3px #888888;
+	box-shadow: 4px 4px 1px 3px #232323;
 	transition: box-shadow .5s;
+	padding-top: 10px;
+	border-bottom: 20px;
+	border-radius: 5px;
+	position: relative;
+	right: 5px;
+	overflow: hidden;
 }
 
 .side_panel:hover img {
@@ -77,6 +70,14 @@ body {
 	
 }
 
+.bottom_panel {
+	display:inline-block;
+	position:relative;
+	width: 100%;
+/*	border: 2px solid black;*/
+	height: 50px;
+	bottom: 0px;
+}
 .test_wrap {
 	display: inline-block;
 	height: 300px;
@@ -107,6 +108,7 @@ body {
 	transition: max-height 1s;
 	transform: scale(.5);
 	transition: transform 1s;
+	float: top;
 }
 
 /*https://coolors.co/app/476a6f-f4f1de-3d2645-519e8a-232323*/
