@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+	background-color: #f2f2f2;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+h1 {
+	color: transparent;
+	height: 0px;
+}
+
+img {
+	width: 100%;
+	border: 0px;
+}
+
+.intro * {
+	background-color:rgba(242, 242, 242, 0);
+}
+
+.intro_bg {
+	background-color: #148D55;
+}
+
+@media screen and (max-width: 310px) {
+  .intro_bg {
+    content:url("images/intro_bg_mobile.jpg");
+  }
+}
+
+}
+@media screen and (min-width: 620px) {
+  .intro_bg {
+    content:url("images/intro_bg_2.png");
+  }
+}
+
+
+.about_me {
+	display: flex;
+	width: 78%;
+	margin: auto;
+}
+.thirds {
+	display: inline-block;
+	width:25%;
+	margin: auto;
+}
+
+.project {
+	width: 78%;
+	display: flex;
+	margin: auto;
+	border-bottom: 120px;
+}
+
+.project > * {
+	display: inline-block;
+}
+.project_info {
+	width: 65%;
+	margin: auto;
+}
+
+.project_info > * {
+	margin: auto 0;
+}
+
+.contact_info {
+	width: 70%;
+	border: 1px solid red;
+	margin: auto;
+}
+
+.contact_info img {
+	width:100%;
+}
+
+.contact_info > * {
+	margin:auto;
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.contact_icon {
+	max-width: 50%;
+}
+
+h2 {
+	text-align: center;
+	color: #148D55;;
+}
+
+.skills {
+	height: 80%;
+}
+
+.contact_wrapper * {
+	background-color: #148D55;
+}
+.contact-header {
+	padding-top: 10vh;
+	color: #f2f2f2;
+	display: inline;
+	text-align: center;
+
+}
+.contact_wrapper {
+	height: 60vh;
+	background-color: #148D55;
+}
+
+.nav {
+	position: relative;
+    background-color:rgba(242, 242, 242, 0);
+    width:100vw;
+    height:auto;
+    text-align: right;
+}
+.nav > * {
+	margin: 0;
+	margin-right: 5vw;
+	width:auto;
+	display:inline-table;
+	border:1px solid red;
+	background-color:rgba(242, 242, 242, 0);
+}
+/*this is where i am testing fixed header stuff
+*/
+
+/*.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+*/}
+
+
+/*this is where i will test things for deletion
+*/
+

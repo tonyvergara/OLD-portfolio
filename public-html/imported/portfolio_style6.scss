@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+
+.about_me img {
+	width: 100%;
+}
+
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+h1 {
+	color: transparent;
+	height: 0px;
+}
+
+h2 {
+	text-align: center;
+	background-color: #148D55;
+	color: #f2f2f2;
+	font-size: 32px;
+	padding: 20px 0px;
+}
+
+img {
+	width: 100%;
+	border: 0px;
+}
+
+
+.intro {
+	background-color: #148D55;
+	padding-bottom: 20px;
+}
+
+.handwriting {
+    content:url("images/intro_bg_2.png");
+  }
+
+.about_me {
+	display: flex;
+	width: 85%;
+	margin: auto;
+	background-color: #f2f2f2;
+}
+.thirds {
+	display: inline-block;
+	width:25%;
+	margin: auto;
+}
+
+.my_work {
+	background-color: #f2f2f2;
+}
+
+.my_work h2 {
+	margin: 20px 0px;
+}
+
+.project {
+	width: 80%;
+	display: flex;
+	margin: auto;
+}
+
+.project > * {
+	display: inline-block;
+}
+
+.project > .thirds {
+	transform:scale(.7);
+}
+.project_info {
+	width: 65%;
+	margin: auto;
+}
+
+.project_info > * {
+	margin: auto 0;
+}
+
+.contact_info {
+	width: 64%;
+	margin: auto;
+}
+
+.contact_info img {
+	width:100%;
+}
+
+.contact_info > * {
+	margin:auto;
+	display: inline-block;
+}
+
+.contact_icon {
+	width:140px;
+	height:140px;
+	transform:scale(.7);
+}
+
+.skills {
+	height: 80%;
+}
+
+.contact_wrapper * {
+	background-color: #148D55;
+}
+.contact-header {
+	padding-top: 10vh;
+	color: #f2f2f2;
+	display: inline;
+	text-align: center;
+
+}
+.contact_wrapper {
+	height: 60vh;
+	background-color: #148D55;
+}
+
+.nav {
+	position: relative;
+    bottom: 10vh;
+    background-color:rgba(242, 242, 242, 0);
+    width:100vw;
+    height:auto;
+    text-align: right;
+    height:0;
+}
+.nav > * {
+	margin: 0;
+	margin-right: 5vw;
+	width:auto;
+	height:100%;
+	display: inline-block;
+	background-color:rgba(242, 242, 242, 0);
+}
+
+.nav > * :hover {
+}
+
+.link img {
+	max-width:100%;
+}
+
+.handwriting {
+	
+	transform:scale(.9);
+}
+
+
+/*this is where I make the mobile site
+*/
+@media screen and (max-width: 414px) {
+  .handwriting {
+    content:url("images/intro_bg_mobile.png");
+  }
+  .about_me {
+  	display: inline;
+  }
+  .thirds {
+  	width:90%;
+  	margin: auto;
+  }
+  .project * {
+  	display:inline;
+  	width:auto;
+  }
+  .project > * {
+  	width:90%;
+  }
+}
+/*this is where i am testing fixed header stuff
+*/
+
+/*.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+*/}
+
+
+/*this is where i will test things for deletion
+*/
+

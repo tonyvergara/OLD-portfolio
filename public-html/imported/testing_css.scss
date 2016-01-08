@@ -1,0 +1,10 @@
+* {
+	padding: 0;
+	margin:0;
+	border:0;
+}
+
+.test-this > * {
+	margin-right: 5vh;
+	transform: scale(.4);
+}
