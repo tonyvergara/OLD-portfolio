@@ -30,7 +30,8 @@ h2 {
 }
 
 img {
-	width: 100%;
+	height:auto;
+	max-width: 100%;
 	border: 0px;
 }
 
@@ -129,16 +130,18 @@ img {
 	position: relative;
     bottom: 10vh;
     background-color:rgba(242, 242, 242, 0);
-    width:100vw;
-    height:auto;
     text-align: right;
     height:0;
+    width:50%;
+    float:right;
 }
+
 .nav > * {
+	position:relative;
+	height:auto;
+	max-width:100%;
 	margin: 0;
-	margin-right: 5vw;
-	width:auto;
-	height:100%;
+	margin-right: 7%;
 	display: inline-block;
 	background-color:rgba(242, 242, 242, 0);
 }
@@ -146,13 +149,12 @@ img {
 .nav > * :hover {
 }
 
-.link img {
+.link {
 	max-width:100%;
 }
 
 .handwriting {
-	
-	transform:scale(.9);
+	transform:scale(.93);
 }
 
 
@@ -175,6 +177,9 @@ img {
   }
   .project > * {
   	width:90%;
+  }
+  .project {
+  	display:inline;
   }
 }
 /*this is where i am testing fixed header stuff
