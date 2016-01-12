@@ -3,9 +3,7 @@
 
 
 
-img {
-	width: 50%;
-}
+
 
 .prod_title {
 	text-align: center;
@@ -180,6 +178,15 @@ body {
 	transition: max-height 1s;
 	transform: scale(.5);
 	transition: transform 1s;
+}
+
+.thirds {
+	display: inline-block;
+}
+
+.thirds img {
+	width:30%;
+	margin: auto;
 }
 
 /*https://coolors.co/app/476a6f-f4f1de-3d2645-519e8a-232323*/

@@ -1,11 +1,9 @@
-var wrap = $("#wrap");
+$(document).ready(function() {
+  var $header = $("header"),
+      $clone = $header.before($header.clone().addClass("clone"));
 
-wrap.on("scroll", function(e) {
-    
-  if (this.scrollTop > 147) {
-    wrap.addClass("fix-header");
-  } else {
-    wrap.removeClass("fix-header");
-  }
-  
+  $(window).on("scroll", function() {
+    var fromTop = $("body").scrollTop();
+    $('body').toggleClass("down", (fromTop > 350));
+  });
 });

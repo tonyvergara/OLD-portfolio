@@ -3,6 +3,7 @@
 	padding: 0;
 	border: 0;
 	font-family: "Roboto", sans-serif;
+	text-align: center;
 }
 
 
@@ -29,16 +30,22 @@ h2 {
 	padding: 20px 0px;
 }
 
+h3 {
+	border-bottom: 20px;
+}
+
 img {
 	height:auto;
 	max-width: 100%;
 	border: 0px;
 }
 
+.header-bg {
+	content: url("images/header-bg.png")
+}
 
 .intro {
 	background-color: #148D55;
-	padding-bottom: 20px;
 }
 
 .handwriting {
@@ -50,6 +57,7 @@ img {
 	width: 85%;
 	margin: auto;
 	background-color: #f2f2f2;
+	padding-top: 20px;
 }
 .thirds {
 	display: inline-block;
@@ -66,7 +74,7 @@ img {
 }
 
 .project {
-	width: 80%;
+	width: 85%;
 	display: flex;
 	margin: auto;
 }
@@ -88,10 +96,15 @@ img {
 }
 
 .contact_info {
-	width: 64%;
+	width: 70%;
 	margin: auto;
+	border: 1px solid red;
+	text-align: left;
 }
 
+.contact_info > * {
+	display:flex;
+}
 .contact_info img {
 	width:100%;
 }
@@ -104,7 +117,7 @@ img {
 .contact_icon {
 	width:140px;
 	height:140px;
-	transform:scale(.7);
+	transform:scale(.6);
 }
 
 .skills {
@@ -112,7 +125,7 @@ img {
 }
 
 .contact_wrapper * {
-	background-color: #148D55;
+	background-color: #4B4E6F;
 }
 .contact-header {
 	padding-top: 10vh;
@@ -144,6 +157,10 @@ img {
 	margin-right: 7%;
 	display: inline-block;
 	background-color:rgba(242, 242, 242, 0);
+}
+
+.nav img {
+	max-width:100%;
 }
 
 .nav > * :hover {
@@ -190,9 +207,33 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-*/}
+  }
+*/
 
+
+header {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  background-color: #148D55;
+  overflow: hidden;
+}
+
+header.clone {
+  position: fixed;
+  top: -150px;
+  left: 0;
+  right: 0;
+  height:85px;
+  z-index: 999;
+  transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
+  background-image: linear-gradient(-180deg, #148D55 0%, #148D55 90%, #065430 100%);
+  overflow:initial;
+}
+
+body.down header.clone {
+  top: 0;
+}
 
 /*this is where i will test things for deletion
 */
-
