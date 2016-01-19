@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 32px;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+.wrapper  img {
+	width: 100%;
+}
+.introduction {
+	text-align: center;
+}
+
+.summary {
+	display: table;
+	margin: 20px 0px;
+}
+
+
+.summary span {
+	display: table-cell;
+	width: 33.75%;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid red;
+}
+
+
+.client_meeting {
+	background-color: rgba(255,255,255,.4);
+	display: table;
+	max-width: 100%;
+	border: 1px solid red;
+}
+
+.client_meeting2 span {
+	width: 100%;
+	display: table-cell;
+}
+.competitive_analysis {
+	display: inline-block;
+}
+
+.competitive_analysis > .right75 {
+	text-align: right;
+	border: 1px solid red;
+}
+
+.left25 {width:24%; display: inline-block;}
+.right75 {width:74%; display: inline-block;}
+
+
+iframe {
+	width: 100%;
+	margin: 0 auto;
+	height: 300px;
+}
+
+ul
+{
+    list-style-type: none;
+    border: 1px solid red;
+}
+h3 {
+	border: 1px solid red;
+	text-align: center;
+}
+
+h4 {
+	font-size: 32px;
+}
