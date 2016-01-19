@@ -1,0 +1,269 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	color: #f2f2f2;
+	background-color: #232323;
+}
+
+h1 {
+	font-size: 48px;
+	padding: 20px 0px;
+	height: auto;
+	overflow: initial;
+	z-index: 10;
+	text-shadow: 1px 2px #148D55;
+}
+
+h2 {
+	background-color: #148D55;
+	color: #f2f2f2;
+	font-size: 32px;
+	padding: 20px 0px;
+	text-shadow: 1px 2px #232323;
+}
+
+h3 {
+	padding: 20px 0px;
+}
+
+img {
+	height:auto;
+	max-width: 100%;
+	border: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a :hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.handwriting {
+    content: url("images/header-bg-2.png");
+    width: 100%;
+  }
+
+.about_me {
+	margin: auto;
+	background-color: #f2f2f2;
+	padding-top: 20px;
+}
+.thirds {
+	display: inline-block;
+	width:25%;
+	margin: auto;
+}
+
+.my_work {
+	background-color: #f2f2f2;
+	padding-bottom: 50px;
+}
+
+.my_work h2 {
+	margin: 20px 0px;
+}
+
+.project * {
+	background-color: #f2f2f2;
+	color: #232323;
+}
+.project {
+	display: inline-block;
+	margin: auto;
+	width: 30%;
+}
+
+
+}
+.project_info {
+	width: 80%;
+	margin: auto;
+}
+
+.project_info > * {
+	margin: auto 0;
+}
+.project_image {
+	width: 50%;
+}
+
+.skills {
+	height: 80%;
+}
+
+.contact_wrapper {
+	width:100%;
+	background-color: #148D55;
+}
+
+.contact_wrapper * {
+	background-color: #148D55;
+}
+.contact-header {
+	padding-top: 10vh;
+	color: #f2f2f2;
+	display: inline;
+	text-align: center;
+	width:100%;
+
+}
+
+.contact-footer {
+	color: #f2f2f2;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+.contact-footer img {
+	margin: 5px 10px;
+}
+
+.contact_wrapper > * {
+	display:inline-block;
+	padding-bottom: 10vh;
+}
+
+.find-me > * > * > * {
+	display:inline-block;
+}
+.contact-icon {
+	margin:auto 0;
+}
+.contact-text {
+}
+.contact-form {
+	width: 45%;
+}
+.contact_wrapper {
+	display:flex;
+}
+.find-me {
+	width: 45%;
+}
+.contact_info {
+	display: flex;
+}
+
+
+
+
+
+/*this is where I make the mobile site
+*/
+@media screen and (max-width: 414px) {
+  .handwriting {
+    content:url("images/intro_bg_mobile.png");
+  }
+  .about_me {
+  	display: inline;
+  }
+  .thirds {
+  	width:90%;
+  	margin: auto;
+  }
+  .project * {
+  	display:inline;
+  	width:auto;
+  }
+  .project > * {
+  	width:90%;
+  }
+  .project {
+  	display:inline;
+  }
+  .nav {
+  	width:100%;
+  }
+}
+/*this is where i am putting fixed header and footer stuff
+*/
+
+
+.nav {
+	width: 50%;
+	float: right;
+	background-color: #232323;
+}
+
+
+.link {
+	display: inline-block;
+	margin:auto 20px;
+	color: #f2f2f2;
+	background-color: #232323;
+	height: 10vh;
+	text-decoration: initial;
+	text-shadow: 1px 2px #148D55;
+
+}
+
+.link :hover {
+	text-decoration: underline;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  background-image: linear-gradient(-180deg, #232323 0%, #232323 95%, #000000 100%);
+  border-bottom:0 2px 2px -2px rgba(0, 0, 0, .52);
+  color:#f2f2f2;
+}
+
+header,footer * {
+	background-color: rgba(0,0,0,0);
+}
+
+header.clone {
+  position: fixed;
+  top: -150px;
+  left: 0;
+  right: 0;
+  height:auto;
+  z-index: 999;
+  transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
+  background-image: linear-gradient(0deg, #232323 0%, #232323 95%, #000000 100%);
+  color: #f2f2f2;
+  overflow:initial;
+}
+.nav {
+	margin: 10px 10px;
+}
+.link {
+	height:auto;
+}
+footer {
+	position:fixed;
+	bottom: 0px;
+	height: auto;
+	background-image: linear-gradient(0deg, #232323 0%, #232323 95%, #000000 100%);
+	width: 100%;
+	text-align: right;
+}
+footer img {
+	display:inline-block;
+	transform: scale(.75);
+}
+
+body.down header.clone {
+  top: 0;
+}
+.footer-content {
+	width: auto;
+	display: inline-block;
+}
+
+/*this is where i will test things for deletion
+*/
+/*https://coolors.co/84828f-6a687a-536271-3e4c5e-2c3d55
+*/

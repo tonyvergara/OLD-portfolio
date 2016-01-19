@@ -84,6 +84,12 @@ img {
 	display: inline-block;
 }
 
+
+.project img {
+	width:400px;
+	height:400px;
+}
+
 .project > .thirds {
 	transform:scale(.7);
 }
@@ -127,7 +133,7 @@ img {
 }
 
 .contact_wrapper * {
-	background-color: #4B4E6F;
+	background-color: #232323;
 }
 .contact-header {
 	padding-top: 10vh;
